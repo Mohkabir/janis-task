@@ -7,6 +7,22 @@
 body {
   margin: 0;
 }
+.testimonial{
+  width: 20px;
+  display: block;
+  /* height: 40px; */
+}
+.logo_text{
+  font-size: 28px;
+  font-weight: 500;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.img_max{
+  /* width: 50%; */
+  height: 100%;
+  width: 100%;
+}
 
 article,
 aside,
@@ -1391,13 +1407,13 @@ th {
 }
 
 html {
-  font-size: 10px;
+  font-size: 18px;
   -webkit-tap-highlight-color: transparent
 }
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.42857143;
   color: #333;
   background-color: #fff
@@ -11463,7 +11479,7 @@ body {
   font-family: 'Roboto';
   font-weight: 400;
   color: #666666;
-  font-size: 15px;
+  font-size: 18px;
   position: relative
 }
 
@@ -11544,7 +11560,6 @@ h6 {
 }
 
 p {
-  font-size: 16px;
   letter-spacing: 1px;
   color: #929292;
   font-family: "Roboto";
@@ -11726,18 +11741,18 @@ img {
 .upsellproduct .testimonials .left p {
   float: left;
   width: 100%;
-  font-size: 15px;
+
   color: #ffffff;
   font-family: "Roboto";
   font-weight: 400;
 }
 
-.upsellproduct .testimonials .left .userinfo .image {
+.upsellproduct .testimonials .left .userinfo  {
   float: left;
   width: 10%;
 }
 
-.upsellproduct .testimonials .left .userinfo .image img {
+.upsellproduct .testimonials .left .userinfo  {
   border-radius: 50%;
   width: 30px;
 }
@@ -11915,7 +11930,6 @@ img {
 }
 
 .footer .copyright p {
-  font-size: 14px;
   color: #868686;
   font-family: "Roboto";
   font-weight: 400;
@@ -11994,7 +12008,7 @@ img {
 }
 
 .header .navigationmenu ul li a {
-  font-size: 15px;
+
   color: #b1b1b1;
   font-family: "Roboto";
   font-weight: 500;
@@ -12137,6 +12151,8 @@ img {
 
   .productinner .mainproduct .innerproduct img {
     width: 130px;
+    width: 100%;
+    
   }
 }
 
@@ -12179,7 +12195,7 @@ img {
 .services .item p {
   float: left;
   width: 100%;
-  font-size: 15px;
+font-size: 24px;
   color: #8D8D8D;
   font-family: "Roboto";
   font-weight: 400;
@@ -12219,7 +12235,7 @@ img {
 }
 
 .shopallproduct .rating-2 span {
-  font-size: 15px;
+
   letter-spacing: 1px;
   color: #7c7c7c;
   font-family: "Roboto";
@@ -12263,7 +12279,7 @@ img {
 }
 
 .testimonialslisting .item p {
-  font-size: 15px;
+
   letter-spacing: 1px;
   color: #7c7c7c;
   font-family: "Roboto";
@@ -12272,7 +12288,7 @@ img {
 }
 
 .testimonialslisting .item span {
-  font-size: 15px;
+
   letter-spacing: 1px;
   color: #7c7c7c;
   font-family: "Roboto";
@@ -12500,7 +12516,8 @@ img {
   float: left;
   width: 100%;
   border: 1px solid #e1e1e1;
-  padding: 50px 30px;
+  padding: 50px 0px;
+
   text-align: center;
   background-color: #fff;
 }
@@ -12595,7 +12612,7 @@ img {
 }
 
 .productinner .procontent ul li {
-  font-size: 15px;
+
   line-height: 25px;
   color: #7c7c7c;
   font-family: "Roboto";
@@ -12607,7 +12624,7 @@ img {
 }
 
 .productinner .procontent p {
-  font-size: 15px;
+
   letter-spacing: 1px;
   line-height: 22px;
   color: #7c7c7c;
@@ -12762,7 +12779,6 @@ img {
 .productinner .testimonials p {
   float: left;
   width: 100%;
-  font-size: 18px;
   color: #3074e3;
   font-family: "Roboto";
   font-weight: 400;
@@ -12868,7 +12884,7 @@ img {
 }
 
 .mainproduct .tag p {
-  font-size: 15px;
+  
   margin: 0;
   padding: 0;
   color: #ffffff;
@@ -12892,6 +12908,7 @@ img {
 }
 
 .sed-dignissim-tor .video-sec {
+  text-align: center;
   background-color: #f9f9f9;
   width: 90%;
   height: 450px;
@@ -12941,7 +12958,7 @@ img {
 }
 
 .sed-dignissim-tor .tag p {
-  font-size: 15px;
+  
   margin: 0;
   padding: 0;
   color: #ffffff;
@@ -12994,7 +13011,7 @@ img {
 }
 
 .donecpretium p {
-  font-size: 15px;
+  
   line-height: 25px;
   color: #7c7c7c;
   font-family: "Roboto";
@@ -13180,7 +13197,6 @@ img {
   }
 
   .productinner .procontent p {
-    font-size: 18px;
   }
 
   .productinner .procontent ul li {
@@ -13261,7 +13277,6 @@ img {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 80px;
-    font-size: 16px;
   }
 
   .donecpretium {
@@ -13563,6 +13578,7 @@ img {
   .sed-dignissim-tor .tag {
     left: 0;
     top: -45px;
+    top: -90px;
   }
 
   .sed-dignissim-tor {
@@ -13630,7 +13646,7 @@ img {
   }
 
   .services .item p {
-    font-size: 14px;
+    font-size: 18px;
   }
 
   .services {
