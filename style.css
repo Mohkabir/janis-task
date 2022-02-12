@@ -5,9 +5,14 @@
   -ms-text-size-adjust: 100%;
   color: black !important;
 }
-
+.fa-star{
+  color: gold!important;
+}
 body {
   margin: 0;
+}
+.wrapper_space{
+  padding: 20px;
 }
 .testimonial{
   width: 80px;
@@ -11791,6 +11796,7 @@ img {
 .faqs {
   float: left;
   width: 100%;
+  padding: 20px;
 }
 
 .tagline {
@@ -12323,6 +12329,7 @@ font-size: 24px;
 .faqs {
   float: left;
   width: 100%;
+  padding: 20px;
   padding-top: 50px;
   padding-bottom: 50px;
   background-color: #f9f9f9;
@@ -13252,7 +13259,6 @@ font-size: 24px;
 
   .productinner .mainproduct .innerproduct img {
     width: 280px;
-    width: 100%;
   }
 
   .padding-right80 {
@@ -13320,6 +13326,7 @@ font-size: 24px;
   }
 
   .faqs {
+    padding: 20px;
     padding-top: 75px;
     padding-bottom: 100px;
   }
