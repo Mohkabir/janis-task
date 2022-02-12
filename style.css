@@ -32,6 +32,7 @@ body {
 .logo_text{
   font-size: 28px;
   font-weight: 500;
+  color: gray!important;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -13216,8 +13217,8 @@ font-size: 24px;
     line-height: 60px;
   }
 
-  .productinner .procontent p {
-  }
+  /* .productinner .procontent p {
+  } */
 
   .productinner .procontent ul li {
     font-size: 18px;
